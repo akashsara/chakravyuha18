@@ -1,0 +1,20 @@
+Column Header,Description
+property_id,Unique Identifier for each hotel [Character]
+property_name,Name of the hotel [Character]
+city,City in which the hotel is present [Character]
+tier_city,What tier does the city belong to? [Categorical] Note: A1 > A > B1 > B2
+hotel_star_rating,The star rating of each hotel [Categorical] Note: 0 star-5 star
+min_price,Minimum tariff for the hotel [Numeric]
+max_price,Maximum tariff for the hotel [Numeric]
+avg_price,Average tariff for the hotel [Numeric]
+rating_location,Average rating (out of 5) for the location of the hotel [Numeric]
+rating_hospitality,Average rating (out of 5) for the hospitality at the hotel [Numeric]
+rating_facilities,Average rating (out of 5) for the facilities available [Numeric]
+rating_cleanliness,Average rating (out of 5) for how clean the hotel is [Numeric]
+rating_value_for_money,Average rating (out of 5) as to whether the hotel provides value for money or not [Numeric]
+rating_food,Average rating (out of 5) for the food served [Numeric]
+overall_review_count,Number of reviews for the hotel [Numeric]
+overall_review_score,Average review score (out of 5) for the hotel [Numeric]
+site_review_count,Number of ratings the hotel has received on website [Numeric]
+site_review_rating,Average rating for the hotel on website [Numeric]
+value_segment,Final value segment which the hotel belongs to [Categorical]
